@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="#">
+                    <img class="logo__img" src="images/logo.png" alt="logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link menu__list-link--active" href="#">home</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">shop</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">page</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">blog</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="user-nav">
+                    <a class="user-nav__link" href="#">
+                        <img class="user-nav__link-img" src="images/icons/user.svg" alt="user icon">
+                    </a>
+                    <a class="user-nav__link" href="#">
+                        <img class="user-nav__link-img" src="images/icons/search.svg" alt="user icon">
+                    </a>
+                    <a class="user-nav__link" href="#">
+                        <img class="user-nav__link-img" src="images/icons/heart.svg" alt="user icon">
+                        <span class="user-nav__num">3</span>
+                    </a>
+                    <a class="user-nav__link" href="#">
+                        <img class="user-nav__link-img" src="images/icons/cart.svg" alt="user icon">
+                        <span class="user-nav__num">7</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<main class="main">
+    
+    <section class="top">
+        <div class="top__container" style="background-image: url('images/top-bg.jpg');">
+            <div class="container">
+                <h2 class="top__title title">CONTACT US</h2>
+                <div class="breadcrumbs">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item">
+                            <a class="breadcrumbs__link" href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a class="breadcrumbs__link" href="#">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="container">
+            <div id="map"></div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact__inner">
+                <div class="contact__info">
+                    <h3 class="contact__info-title">
+                        Feel Free Don’t
+                        Hesitate To
+                        Contact With Us
+                    </h3>
+                    <p class="contact__info-text">
+                        Lorem ipsum dolor sit amet, consectetur adingn elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo maecnaacnrao cumsan lacus vel facilisis. 
+                    </p>
+                    <ul class="contact__info-list">
+                        <li class="contact__info-item">
+                            <a class="contact__info-phone" href="tel:+01234567896">+0-123-456-7896</a>
+                            <a class="contact__info-phone" href="tel:+01234567896">+0-123-456-7896</a>
+                        </li>
+                        <li class="contact__info-item contact__info-item--location">
+                            Ranlon Market 789 Road, <br>
+                            Market Street, Newyork
+                        </li>
+                        <li class="contact__info-item contact__info-item--email">
+                            <div>yourmailaddress@gmail.com</div>
+                            <div>companymail@gmail.com</div>
+                        </li>
+                    </ul>
+                </div>
+                <form class="contact__form" action="#">
+                    <p class="contact__form-title"></p>
+                    <div class="contact__form-box">
+                        <input class="contact__form-input" type="text" placeholder="Your Name">
+                        <input class="contact__form-input" type="text" placeholder="Your E-mail Address">
+                    </div>
+                    <input class="contact__form-input" type="text" placeholder="Subject">
+                    <textarea class="contact__form-textarea" placeholder="Message here"></textarea>
+                    <button class="contact__form-btn" type="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+
+</main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-top__item footer-top__contact">
+                    <a class="logo footer-top__logo" href="#">
+                        <img class="logo__img" src="images/logo.png" alt="logo">
+                    </a>
+                    <a class="footer-top__adress" href="#">
+                        No. 342 - London Oxford Street,
+                        012 United States                        
+                    </a>
+                    <a class="footer-top__email" href="mailto:Youremail@gmail.com">Youremail@gmail.com</a>
+                    <a class="footer-top__phone" href="tel:+02838388393">+0283 838 8393</a>
+                    <ul class="footer-top__social-list">
+                        <li class="footer-top__social-item">
+                            <a class="footer-top__social-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9pt" height="18pt" viewBox="0 0 9 18" version="1.1">
+                                    <g>
+                                    <path d="M 8.105469 9.625 L 8.515625 6.53125 L 5.9375 6.53125 L 5.9375 4.519531 C 5.9375 3.671875 6.296875 2.847656 7.449219 2.847656 L 8.625 2.847656 L 8.625 0.207031 C 8.625 0.207031 7.558594 0 6.542969 0 C 4.414062 0 3.027344 1.484375 3.027344 4.164062 L 3.027344 6.53125 L 0.664062 6.53125 L 0.664062 9.625 L 3.027344 9.625 L 3.027344 17.117188 L 5.9375 17.117188 L 5.9375 9.625 Z M 8.105469 9.625 "/>
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-top__social-item">
+                            <a class="footer-top__social-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14pt" height="14pt" viewBox="0 0 14 14" version="1.1">
+                                    <g>
+                                    <path d="M 12.394531 5.058594 C 12.40625 5.195312 12.40625 5.332031 12.40625 5.46875 C 12.40625 10.117188 9.554688 15.378906 4.351562 15.378906 C 2.746094 15.378906 1.253906 14.832031 0 13.878906 C 0.226562 13.878906 0.445312 13.878906 0.683594 13.878906 C 2.007812 13.878906 3.226562 13.332031 4.199219 12.371094 C 2.953125 12.371094 1.910156 11.347656 1.550781 9.980469 C 1.726562 10.050781 1.902344 10.050781 2.085938 10.050781 C 2.34375 10.050781 2.59375 9.980469 2.832031 9.910156 C 1.53125 9.570312 0.5625 8.203125 0.5625 6.496094 L 0.5625 6.425781 C 0.9375 6.699219 1.378906 6.902344 1.84375 6.902344 C 1.078125 6.289062 0.578125 5.195312 0.578125 3.964844 C 0.578125 3.347656 0.71875 2.734375 0.964844 2.253906 C 2.355469 4.375 4.453125 5.742188 6.804688 5.878906 C 6.761719 5.605469 6.730469 5.332031 6.730469 5.058594 C 6.730469 3.144531 7.996094 1.574219 9.5625 1.574219 C 10.378906 1.574219 11.113281 2.050781 11.632812 2.734375 C 12.273438 2.527344 12.886719 2.253906 13.429688 1.847656 C 13.21875 2.667969 12.773438 3.347656 12.1875 3.761719 C 12.753906 3.691406 13.308594 3.488281 13.816406 3.214844 C 13.429688 3.964844 12.949219 4.511719 12.394531 5.058594 Z M 12.394531 5.058594 "/>
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-top__social-item">
+                            <a class="footer-top__social-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14pt" height="14pt" viewBox="0 0 14 14" version="1.1">
+                                    <g>
+                                    <path d="M 3.054688 12.089844 L 0.222656 12.089844 L 0.222656 4.019531 L 3.054688 4.019531 Z M 1.636719 2.917969 C 0.730469 2.917969 0 2.253906 0 1.449219 C 0 0.652344 0.730469 0 1.636719 0 C 2.542969 0 3.273438 0.652344 3.273438 1.449219 C 3.273438 2.253906 2.542969 2.917969 1.636719 2.917969 Z M 13.628906 12.089844 L 10.8125 12.089844 L 10.8125 8.160156 C 10.8125 7.222656 10.789062 6.023438 9.339844 6.023438 C 7.871094 6.023438 7.644531 7.039062 7.644531 8.089844 L 7.644531 12.089844 L 4.820312 12.089844 L 4.820312 4.019531 L 7.535156 4.019531 L 7.535156 5.121094 L 7.574219 5.121094 C 7.953125 4.488281 8.871094 3.8125 10.246094 3.8125 C 13.105469 3.8125 13.632812 5.484375 13.632812 7.65625 L 13.632812 12.089844 Z M 13.628906 12.089844 "/>
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-top__social-item">
+                            <a class="footer-top__social-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16pt" height="16pt" viewBox="0 0 16 16" version="1.1">
+                                    <g>
+                                    <path d="M 15.789062 8.074219 C 15.789062 12.4375 12.65625 15.542969 8.023438 15.542969 C 3.585938 15.542969 0 12.125 0 7.894531 C 0 3.664062 3.585938 0.246094 8.023438 0.246094 C 10.183594 0.246094 12.003906 1.003906 13.40625 2.25 L 11.222656 4.25 C 8.363281 1.621094 3.050781 3.59375 3.050781 7.894531 C 3.050781 10.5625 5.289062 12.722656 8.023438 12.722656 C 11.199219 12.722656 12.394531 10.554688 12.578125 9.429688 L 8.023438 9.429688 L 8.023438 6.796875 L 15.660156 6.796875 C 15.734375 7.1875 15.789062 7.566406 15.789062 8.074219 Z M 15.789062 8.074219 "/>
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-top__social-item">
+                            <a class="footer-top__social-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12pt" height="15pt" viewBox="0 0 12 15" version="1.1">
+                                    <g>
+                                    <path d="M 6.292969 0.191406 C 3.128906 0.191406 0 2.195312 0 5.4375 C 0 7.5 1.222656 8.671875 1.960938 8.671875 C 2.265625 8.671875 2.441406 7.863281 2.441406 7.636719 C 2.441406 7.363281 1.710938 6.78125 1.710938 5.648438 C 1.710938 3.292969 3.597656 1.621094 6.042969 1.621094 C 8.140625 1.621094 9.695312 2.757812 9.695312 4.839844 C 9.695312 6.394531 9.039062 9.3125 6.910156 9.3125 C 6.144531 9.3125 5.484375 8.785156 5.484375 8.03125 C 5.484375 6.921875 6.300781 5.851562 6.300781 4.707031 C 6.300781 2.769531 3.40625 3.121094 3.40625 5.464844 C 3.40625 5.957031 3.46875 6.5 3.699219 6.949219 C 3.273438 8.691406 2.40625 11.28125 2.40625 13.074219 C 2.40625 13.628906 2.488281 14.175781 2.542969 14.726562 C 2.648438 14.839844 2.597656 14.828125 2.757812 14.769531 C 4.3125 12.75 4.253906 12.355469 4.957031 9.707031 C 5.339844 10.394531 6.320312 10.761719 7.097656 10.761719 C 10.371094 10.761719 11.84375 7.730469 11.84375 4.996094 C 11.84375 2.089844 9.195312 0.191406 6.292969 0.191406 Z M 6.292969 0.191406 "/>
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-top__item footer-top__nav">
+                    <h6 class="footer-top__title">Useful Links</h6>
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item">
+                            <a class="footer-top__link" href="#">About Us</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a class="footer-top__link" href="#">Privacy Policy</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a class="footer-top__link" href="#">Terms & Conditions</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a class="footer-top__link" href="#">Contact Us</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a class="footer-top__link" href="#">Help & Support</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-top__item footer-top__nav">
+                    <h6 class="footer-top__title">My Account</h6>
+                    <ul class="footer-top__list">
+                        <li class="footer-top__item">
+                            <a class="footer-top__link" href="#">My Account</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a class="footer-top__link" href="#">My Cart</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a class="footer-top__link" href="#">My WIshlist</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a class="footer-top__link" href="#">Registration</a>
+                        </li>
+                        <li class="footer-top__item">
+                            <a class="footer-top__link" href="#">Check Out</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-top__item footer-top__item-form">
+                    <h6 class="footer-top__title">Subscribe Our Newsletter</h6>
+                    <p class="footer-top__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                    </p>
+                    <form class="footer-top__form" action="#">
+                        <input class="footer-top__form-input" type="email" placeholder="Your email address" required>
+                        <button class="footer-top__form-btn" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-bottom__copy">
+                    © 2019 CodeAstrology. All Rights Reserved.
+                </p>
+                <div class="footer-bottom__accept">
+                    We accept
+                    <img class="footer-bottom__accept-img" src="images/icons/mastercard.png" alt="we accept mastercard">
+                    <img class="footer-bottom__accept-img" src="images/icons/visa.png" alt="we accept visa">
+                    <img class="footer-bottom__accept-img" src="images/icons/paypal.png" alt="we accept paypal">
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <script>
+        let map;
+
+        function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+            center: { lat: 40.80013367486246, lng: -74.04391557967412 },
+            zoom: 13,
+            styles: [
+    {
+        "featureType": "all",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "color": "#a31645"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "weight": "3.79"
+            },
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#ffecf0"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "color": "#a31645"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "saturation": "0"
+            },
+            {
+                "lightness": "0"
+            },
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.business",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "color": "#d89ca8"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.business",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.business",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "saturation": "0"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.business",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "color": "#a31645"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.business",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "lightness": "84"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 45
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#d89ca8"
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#fedce3"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    }
+]
+        });
+        }
+    </script>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
